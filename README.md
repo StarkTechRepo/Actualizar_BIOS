@@ -43,9 +43,9 @@ Este repositorio está diseñado para brindar una guía detallada sobre cómo ac
 
 - [VGA Bios Collection](https://www.techpowerup.com/vgabios/): Una colección de BIOS de tarjetas gráficas NVIDIA y AMD que puedes utilizar como referencia o descargar para flashear.
 
-- [NVIDIA NVFlash - TechPowerUp](https://www.techpowerup.com/download/nvidia-nvflash/): Descarga la última versión de NVFlash para flashear tarjetas gráficas NVIDIA.
+- [NVIDIA NVFlash](https://www.techpowerup.com/download/nvidia-nvflash/): Descarga la última versión de NVFlash para flashear tarjetas gráficas NVIDIA.
 
-- [AMDVBFlash - ATI ATIFlash  - TechPowerUp](https://www.techpowerup.com/download/ati-atiflash/): Descarga AMDVBFlash (ATI ATIFlash) para flashear tarjetas gráficas AMD.
+- [AMDVBFlash - ATI ATIFlash](https://www.techpowerup.com/download/ati-atiflash/): Descarga AMDVBFlash (ATI ATIFlash) para flashear tarjetas gráficas AMD.
 
 ### Cuándo Utilizar Estos Comandos:**
 Utiliza estos comandos y herramientas cuando desees actualizar la BIOS de tu tarjeta gráfica para solucionar problemas de compatibilidad, mejorar el rendimiento o personalizar la configuración. El flasheo de la BIOS conlleva riesgos, así que asegúrate de respaldar tu BIOS actual y sigue cuidadosamente las instrucciones proporcionadas por el fabricante de tu tarjeta gráfica. Ten en cuenta que el flasheo incorrecto puede dejar tu tarjeta inoperable y afectar la garantía, así que úsalo bajo tu propio riesgo y responsabilidad.
