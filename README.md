@@ -24,6 +24,32 @@ Este repositorio está diseñado para brindar una guía detallada sobre cómo ac
 - Comprueba las características de tu placa base para ver si tiene dual BIOS. Si es así, sigue este procedimiento; de lo contrario, ten precaución.
 - Si tu placa base tiene dual BIOS y la actualización falla por algún motivo, puedes volver a cargar la BIOS anterior, ya que el dual BIOS realiza un respaldo.
 
+
+### Flasheo de BIOS de Tarjetas Gráficas
+
+**Comandos para NVIDIA (nvflash):**
+
+1. `nvflash(64/32) --protectoff`: Utiliza este comando antes de flashear una nueva BIOS. Deshabilita la protección de escritura en la BIOS de la tarjeta gráfica para permitir el proceso de flasheo.
+
+2. `nvflash(64/32) -6 Nombre de la BIOS.rom`: Ejecuta este comando para flashear la nueva BIOS en la tarjeta gráfica. Asegúrate de reemplazar "Nombre de la BIOS.rom" con el nombre del archivo de la BIOS que deseas instalar.
+
+3. `nvflash(64/32) --protecton`: Después de completar el flasheo, utiliza este comando para volver a habilitar la protección de escritura en la BIOS.
+
+**Comandos para AMD (AMDVBFlash):**
+
+1. `AMDVBFlash.exe -f -p 0 Nombre de la BIOS.rom`: Este comando se utiliza para flashear la BIOS en tarjetas gráficas AMD. Reemplaza "Nombre de la BIOS.rom" con el nombre del archivo de la BIOS que deseas instalar. El "-p 0" se refiere al número de dispositivo, que puede variar según tu configuración.
+
+**Herramientas de Descarga:**
+
+- [VGA Bios Collection](https://www.techpowerup.com/vgabios/): Una colección de BIOS de tarjetas gráficas NVIDIA y AMD que puedes utilizar como referencia o descargar para flashear.
+
+- [NVIDIA NVFlash - TechPowerUp](https://www.techpowerup.com/download/nvidia-nvflash/): Descarga la última versión de NVFlash para flashear tarjetas gráficas NVIDIA.
+
+- [AMDVBFlash - ATI ATIFlash  - TechPowerUp](https://www.techpowerup.com/download/ati-atiflash/): Descarga AMDVBFlash (ATI ATIFlash) para flashear tarjetas gráficas AMD.
+
+### Cuándo Utilizar Estos Comandos:**
+Utiliza estos comandos y herramientas cuando desees actualizar la BIOS de tu tarjeta gráfica para solucionar problemas de compatibilidad, mejorar el rendimiento o personalizar la configuración. El flasheo de la BIOS conlleva riesgos, así que asegúrate de respaldar tu BIOS actual y sigue cuidadosamente las instrucciones proporcionadas por el fabricante de tu tarjeta gráfica. Ten en cuenta que el flasheo incorrecto puede dejar tu tarjeta inoperable y afectar la garantía, así que úsalo bajo tu propio riesgo y responsabilidad.
+
 Mantén tu sistema actualizado y optimizado siguiendo estos pasos cuidadosamente para actualizar la BIOS de manera segura.
 
 ## Licencia
